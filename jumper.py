@@ -3,6 +3,9 @@ import random
 
 
 class Director:
+    """
+    This is the class header
+    """
     #holds all the defs and directs the game
     def __init__(self):
         
@@ -21,6 +24,9 @@ class Director:
 
 
 class WordBlanks:
+    """
+    This class displays the word blanks and calls for the random 5 letter word
+    """
 
     def __init__(self):
         self.blankString = list("_ _ _ _ _")
@@ -49,6 +55,9 @@ class WordBlanks:
     #returns inputs
 
 class Parachute:
+    """
+    This class displays the parachute and controls the life points the parachute has.
+    """
 
     def __init__(self):
         self.parachute = [' ___', '/   \\', ' ———', '\\    /', ' \\  / ', '  0', '/ | \\', ' / \\', " ", "^^^^^^^^^^^^^"]
@@ -69,6 +78,9 @@ class Parachute:
             return False
 
 class UnknownWordGenerator:
+    """
+    This class pulls a random word from the word bank and returns it for use throughout the code
+    """
     def __init__(self):
         bank = ['areas', 'pizza', 'trees']
         self.unknown_word = bank[random.randint(0, 2)]
