@@ -3,4 +3,4 @@ Hangman, but with a parachute. Guess a 5 letter word by guess 1 letter a time. G
 
 Code created by Ryan Alvord, Innocent Hove, Cooper Featherstone, and Njato Harizo.
 
-Ryan created the code and classes 
+Ryan created the code and classes
