@@ -5,4 +5,4 @@ Code created by Ryan Alvord, Innocent Hove, Cooper Featherstone, and Njato Hariz
 
 Ryan created the code and classes.
 
-Cooper edited coments and attended both mettings.
+Cooper edited coments, added 2 unkonwn words to the code, and attended both mettings.
