@@ -8,7 +8,9 @@ class Director:
     """
     #holds all the defs and directs the game
     def __init__(self):
-        
+        self._stick_figure = Parachute()
+        self._blanks = WordBlanks()
+        self._generator = UnknownWordGenerator
         return
     def start_game(self):
         blanks = WordBlanks()
