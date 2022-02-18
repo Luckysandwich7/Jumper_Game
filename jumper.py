@@ -84,12 +84,12 @@ class UnknownWordGenerator:
     This class pulls a random word from the word bank and returns it for use throughout the code
     """
     def __init__(self):
-        bank = ['areas', 'pizza', 'trees']
-        self.unknown_word = bank[random.randint(0, 2)]
+        bank = ['areas', 'pizza', 'trees','jazzy','adore']
+        self.unknown_word = bank[random.randint(0, 4)]
     def get_unknown_word(self):
         return self.unknown_word
 
-
+#starts the game
 def main():
     game = Director()
     game.start_game()
