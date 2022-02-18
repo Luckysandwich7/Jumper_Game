@@ -4,7 +4,7 @@ import random
 
 class Director:
     """
-    This is the class header
+    This is the class header that runs the games
     """
     #holds all the defs and directs the game
     def __init__(self):
@@ -49,9 +49,6 @@ class WordBlanks:
             return False
         else:
             return True
-""
-test
-""
 
     def print_blanks(self):
         print("".join(self.blankString))
