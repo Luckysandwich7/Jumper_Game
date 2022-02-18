@@ -47,7 +47,9 @@ class WordBlanks:
             return False
         else:
             return True
-
+""
+test
+""
 
     def print_blanks(self):
         print("".join(self.blankString))
