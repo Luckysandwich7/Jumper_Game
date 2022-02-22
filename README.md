@@ -6,3 +6,5 @@ Code created by Ryan Alvord, Innocent Hove, Cooper Featherstone, and Njato Hariz
 Ryan created the code and classes.
 
 Cooper edited coments, added 2 unkonwn words to the code, and attended both mettings.
+
+Innocent added headers to the classes and to the method. Set all the class attributes to private so they are only accessible within the class
